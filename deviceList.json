@@ -1,0 +1,90 @@
+{
+  "statusCode": 100,
+  "body": {
+    "deviceList": [
+      {
+        "deviceId": "CB82DFF51A11",
+        "deviceName": "解錠ボット",
+        "deviceType": "Bot",
+        "enableCloudService": true,
+        "hubDeviceId": "FF41DA60B154"
+      },
+      {
+        "deviceId": "D177386504F6",
+        "deviceName": "Hub Mini F6",
+        "deviceType": "Hub Mini",
+        "hubDeviceId": "000000000000"
+      },
+      {
+        "deviceId": "DD6FD3595D95",
+        "deviceName": "ベランダ",
+        "deviceType": "Meter",
+        "enableCloudService": true,
+        "hubDeviceId": "D177386504F6"
+      },
+      {
+        "deviceId": "E835579F8894",
+        "deviceName": "カメラ",
+        "deviceType": "Meter",
+        "enableCloudService": true,
+        "hubDeviceId": "D177386504F6"
+      },
+      {
+        "deviceId": "F6013D273862",
+        "deviceName": "カーテン",
+        "deviceType": "Curtain",
+        "enableCloudService": true,
+        "hubDeviceId": "FF41DA60B154",
+        "curtainDevicesIds": [
+          "F6013D273862"
+        ],
+        "calibrate": true,
+        "group": false,
+        "master": true,
+        "openDirection": "right"
+      },
+      {
+        "deviceId": "F604A7179BC9",
+        "deviceName": "PC電源",
+        "deviceType": "Bot",
+        "enableCloudService": true,
+        "hubDeviceId": "FF41DA60B154"
+      },
+      {
+        "deviceId": "F7BA7ABD310B",
+        "deviceName": "寝室",
+        "deviceType": "Meter",
+        "enableCloudService": true,
+        "hubDeviceId": "D177386504F6"
+      },
+      {
+        "deviceId": "FD8D5F1CF5C6",
+        "deviceName": "1階ハオ棚",
+        "deviceType": "Meter",
+        "enableCloudService": true,
+        "hubDeviceId": "D177386504F6"
+      },
+      {
+        "deviceId": "FF41DA60B154",
+        "deviceName": "ハブミニ",
+        "deviceType": "Hub Mini",
+        "hubDeviceId": "000000000000"
+      }
+    ],
+    "infraredRemoteList": [
+      {
+        "deviceId": "02-202112081004-16002849",
+        "deviceName": "エアコン",
+        "remoteType": "Air Conditioner",
+        "hubDeviceId": "FF41DA60B154"
+      },
+      {
+        "deviceId": "02-202112101015-56687706",
+        "deviceName": "ライト",
+        "remoteType": "Light",
+        "hubDeviceId": "FF41DA60B154"
+      }
+    ]
+  },
+  "message": "success"
+}
